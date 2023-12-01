@@ -35,24 +35,26 @@ class Swimmer:
 
     def compete(self, current_event_stroke):
         # Randomly determine the difficulty of the competition
-        win_threshold = random.randint(45, 60)
+        win_threshold = random.randint(25, 35)
+        rest_threshold = random.randint(10,20)
 
         # Random performance variability
         performance_variability = random.uniform(0.9, 1.1)
 
         # Calculate the score, balancing the factors
-        base_score = self.speed + self.endurance + self.technique
-        fatigue_impact = min(self.fatigue, base_score * 0.5)  # Limiting the impact of fatigue
-        score = (base_score - fatigue_impact) * performance_variability
+        score = self.speed + self.endurance + self.technique
+        fatigue = self.fatigue
 
         # Bonus for stroke specialization
         if self.stroke_specialization.lower() == current_event_stroke.lower():
             score += 5
 
         print(f"Competition score needed to win: {win_threshold}")
+        print(f"Taper score needed to win (lower is better): {win_threshold}")
         print(f"Your competition score: {score:.2f}")
+        print(f"Your taper score: {fatigue:.2f}")
 
-        if score > win_threshold:
+        if score > win_threshold and fatigue < rest_threshold:
             print("You won your event! Congratulations!")
         else:
             print("Good effort, but not enough to win this time.")
