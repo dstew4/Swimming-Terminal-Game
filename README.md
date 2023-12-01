@@ -52,8 +52,8 @@ Installing "Swimming Terminal Game" is straightforward, even if you're not famil
    - To start the game, you'll need Python installed on your computer. Most Mac and Linux systems have it pre-installed. Windows users can download it from the [official Python website](https://www.python.org/downloads/).
    - Once Python is installed, run the game by typing:
      ```bash
-     python gamefilename.py
+     python Swimming.py
      ```
-     Replace 'gamefilename.py' with the actual name of the game file followed by `.py`.
+     Replace 'Swimming.py' with the actual name of the game file (if different) followed by `.py`.
 
 And that's it! You're ready to dive into the game. If you encounter any issues, don't hesitate to seek help in online forums or directly from the software's support pages.
