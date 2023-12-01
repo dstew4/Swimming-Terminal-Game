@@ -1,7 +1,5 @@
 # Swimming Terminal Game
 
-![Terminal Swimmer](swimmer.png)
-
 ## Overview
 
 Terminal Swimmer is a text-based swimming simulation game written in Python. In this game, players take on the role of a swimmer in training and competitions. It combines elements of strategy, sports simulation, and character development, allowing players to experience the journey of a professional swimmer from training to competing in major events.
