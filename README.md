@@ -1,4 +1,4 @@
-# Swimming Terminal Game
+# Terminal Swimmer
 
 ## Overview
 
