@@ -20,7 +20,7 @@ Terminal Swimmer is a text-based swimming simulation game written in Python. In 
 4. **View Stats:** Keep track of your swimmer’s progress and adapt your training strategy accordingly.
 5. **Repeat:** Continue training and competing, refining your strategy to excel in the main event.
 
-## Installation Guide for Non-Tech Users
+## Installation Guide
 
 Installing "Swimming Terminal Game" is straightforward, even if you're not familiar with technical processes. Here's a simple step-by-step guide to get you started:
 
