@@ -20,9 +20,40 @@ Terminal Swimmer is a text-based swimming simulation game written in Python. In 
 4. **View Stats:** Keep track of your swimmer’s progress and adapt your training strategy accordingly.
 5. **Repeat:** Continue training and competing, refining your strategy to excel in the main event.
 
-## Installation
+## Installation Guide for Non-Tech Users
 
-Clone the repository to your local machine:
+Installing "Swimming Terminal Game" is straightforward, even if you're not familiar with technical processes. Here's a simple step-by-step guide to get you started:
 
-```bash
-git clone https://github.com/dstew4/Swimming-Terminal-Game.git
+1. **Download and Install Git**: 
+   - First, you'll need Git, a version control system that lets you download and manage the game's code. 
+   - Visit [Git's official website](https://git-scm.com/downloads) and download the version appropriate for your operating system (Windows/Mac/Linux).
+   - Follow the installation instructions provided on the website or in the installer.
+
+2. **Clone the Repository**:
+   - Once Git is installed, you can 'clone' (copy) the game to your computer. 
+   - Open your computer's command prompt or terminal. 
+     - On Windows, search for 'cmd' in the Start menu.
+     - On Mac, open the 'Terminal' app from Applications > Utilities.
+   - In the command prompt or terminal, type the following command and press Enter:
+     ```bash
+     git clone https://github.com/dstew4/Swimming-Terminal-Game.git
+     ```
+   - This command tells Git to download the game's code from GitHub to your computer.
+
+3. **Access the Game**:
+   - After the cloning process completes, the game will be available on your computer.
+   - Navigate to the game's directory by typing:
+     ```bash
+     cd Swimming-Terminal-Game
+     ```
+     and press Enter.
+
+4. **Running the Game**:
+   - To start the game, you'll need Python installed on your computer. Most Mac and Linux systems have it pre-installed. Windows users can download it from the [official Python website](https://www.python.org/downloads/).
+   - Once Python is installed, run the game by typing:
+     ```bash
+     python gamefilename.py
+     ```
+     Replace 'gamefilename.py' with the actual name of the game file followed by `.py`.
+
+And that's it! You're ready to dive into the game. If you encounter any issues, don't hesitate to seek help in online forums or directly from the software's support pages.
