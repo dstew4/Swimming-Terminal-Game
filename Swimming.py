@@ -64,7 +64,7 @@ def create_swimmer():
 
 def main():
     swimmer = create_swimmer()
-    days_until_meet = 21
+    days_until_meet = 14
     print(f"Welcome to the swimming world, {swimmer.name}!")
 
     valid_strokes = ['freestyle', 'butterfly', 'backstroke', 'breaststroke']
